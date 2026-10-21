@@ -1,0 +1,65 @@
+{
+  "description": "RAG retrieval benchmark queries for evaluation harness",
+  "queries": [
+    {
+      "id": "sleep-supplement",
+      "hypothesis": "Consumers will pay $49/month for a science-backed sleep supplement with melatonin and magnesium",
+      "expectedKeywords": ["melatonin", "magnesium", "sleep", "supplement"],
+      "expectedDocumentTitles": ["Melatonin Supplement Market Analysis", "Magnesium for Sleep: Clinical Evidence Review", "Global Sleep Economy Market Report 2024"]
+    },
+    {
+      "id": "protein-powder",
+      "hypothesis": "Plant-based protein powder will outsell whey among fitness enthusiasts in 2025",
+      "expectedKeywords": ["protein", "plant", "whey", "fitness"],
+      "expectedDocumentTitles": ["Plant-Based Protein: Growth Trends 2024", "Protein Powder: Consumer Satisfaction Study", "Sports Nutrition Supplements Market 2024"]
+    },
+    {
+      "id": "ecommerce-conversion",
+      "hypothesis": "Free shipping over $50 will increase e-commerce conversion by 20%",
+      "expectedKeywords": ["shipping", "conversion", "e-commerce", "cart"],
+      "expectedDocumentTitles": ["E-commerce Consumer Behavior 2024", "Pricing Psychology in E-commerce"]
+    },
+    {
+      "id": "saas-pricing",
+      "hypothesis": "Usage-based pricing will increase SaaS conversion for SMB segment",
+      "expectedKeywords": ["SaaS", "pricing", "usage", "subscription"],
+      "expectedDocumentTitles": ["SaaS Pricing Models 2024", "Product-Led Growth Metrics"]
+    },
+    {
+      "id": "digital-banking",
+      "hypothesis": "Mobile-first digital banking will replace branch visits for 60% of millennials",
+      "expectedKeywords": ["digital", "banking", "mobile", "bank"],
+      "expectedDocumentTitles": ["Digital Banking Adoption", "Banking Customer Service"]
+    },
+    {
+      "id": "cbd-sleep",
+      "hypothesis": "CBD tinctures will become the top sleep aid for consumers aged 35-50",
+      "expectedKeywords": ["CBD", "sleep", "tincture"],
+      "expectedDocumentTitles": ["CBD for Sleep: Consumer Behavior Study"]
+    },
+    {
+      "id": "subscription-churn",
+      "hypothesis": "Pause option reduces subscription churn by 15%",
+      "expectedKeywords": ["subscription", "churn", "retention"],
+      "expectedDocumentTitles": ["Subscription E-commerce Retention Metrics", "SaaS Churn and Retention"]
+    },
+    {
+      "id": "collagen-beauty",
+      "hypothesis": "Collagen supplements for skin and nails will grow 25% annually",
+      "expectedKeywords": ["collagen", "skin", "beauty"],
+      "expectedDocumentTitles": ["Collagen Supplements: Beauty and Joint Health"]
+    },
+    {
+      "id": "bnpl-adoption",
+      "hypothesis": "Buy Now Pay Later will capture 25% of checkout for purchases over $200",
+      "expectedKeywords": ["BNPL", "pay later", "checkout"],
+      "expectedDocumentTitles": ["Buy Now Pay Later (BNPL) Impact", "Buy Now Pay Later (BNPL) Consumer"]
+    },
+    {
+      "id": "rag-general",
+      "hypothesis": "Natural sleep aids are preferred over prescription medication",
+      "expectedKeywords": ["sleep", "natural", "supplement", "prescription"],
+      "expectedDocumentTitles": ["Natural Sleep Aids: Consumer Preferences Survey", "Global Sleep Economy Market Report 2024"]
+    }
+  ]
+}

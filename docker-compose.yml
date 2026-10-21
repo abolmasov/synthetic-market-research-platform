@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: smr-postgres
+    environment:
+      POSTGRES_USER: smr
+      POSTGRES_PASSWORD: smr
+      POSTGRES_DB: smr
+    ports:
+      - '5445:5432'
+    volumes:
+      - smr_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  smr_postgres_data:
